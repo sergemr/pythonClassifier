@@ -1,7 +1,7 @@
 # pythonWebAppDjango
- pythonWebAppDjango
+ Project Final 3Points AI para transformacion de Negocios
  
- Projecto Inicial Para el trabajo final del Master
+
  
  Para instalar Python y correr el ambiente de desarrollo yo recorri la documentacion oficial de Django encontrada acá
  
