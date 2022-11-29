@@ -15,4 +15,7 @@ pythonClassifier
  Cualquier duda igual me contactan
  
  
+ pythonClassifier/docsAndImgClassifier/docsAndImgClassifier/settings.py debe ser copiada manualmente por el security key, nada mas me lo piden con gusto se los paso
+
+ 
  
