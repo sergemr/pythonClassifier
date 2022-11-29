@@ -26,8 +26,8 @@ def upload(request):
         print("upload,form")
         if form.is_bound:
             print("upload,is_valid")
-            handle_uploaded_file(request.FILES['grade_csv'])
-            return HttpResponseRedirect('/success/url/')
+            handle_uploaded_file(request.FILES['files'])
+            return HttpResponseRedirect('/success/')
     else:
         form = UploadFileForm()
     return render(request, 'upload.html', {'form': form})

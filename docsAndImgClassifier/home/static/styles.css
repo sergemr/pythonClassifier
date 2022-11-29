@@ -1,11 +1,23 @@
 body{
-    background-image: url("https://picsum.photos/1920/1080") ;
-    background-repeat: no-repeat;
-    background-size: auto; 
+    background-color: rgba(1, 76, 108, 0.438);;
+    text-align: center;
+  
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #333;
     line-height: 1.5;
     margin: 0;
     padding: 0;
+}
+.uploadDv{
+    background-repeat: no-repeat;
+    background-size: auto; 
+    background-image: url("https://picsum.photos/1000/280") ;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+   
+}
+.uploadForm{
+    background-color: white;
+    text-align: justify;
 }
