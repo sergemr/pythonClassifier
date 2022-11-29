@@ -16,13 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from home import views as home_views
+from fileUpload import views as input_views
 urlpatterns = [
     #  path('admin/', admin.site.urls),
-
     path('', home_views.home.as_view()),
     path('playground/', include('playground.urls')),
     path('fileupload/', include('fileUpload.urls')),
 
-
+    path('success/', input_views.success, name='success'),
     #path('playground/', views.say_hello, name='hello'),
 ]
