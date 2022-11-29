@@ -21,7 +21,6 @@ def upload(request):
     print("upload,request", request)
     if request.method == 'POST':
         print("upload,POST", request.FILES)
-        print("upload,POST", request.FILES['grade_csv'])
         form = UploadFileForm(request.POST, request.FILES)
         print("upload,form")
         if form.is_bound:
