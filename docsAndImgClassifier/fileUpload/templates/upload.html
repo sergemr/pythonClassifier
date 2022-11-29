@@ -1,0 +1,13 @@
+{% extends 'home.html' %} {% block content %}
+
+<br /><br /><br /><br />
+<h2>Upload13s s</h2>
+<form method="post" action="" enctype="multipart/form-data">
+  <fieldset>
+    {% csrf_token %}
+
+    <input type="file" id="grade_csv" name="grade_csv" />
+    <input type="submit" value="Submit" />
+  </fieldset>
+</form>
+{% endblock %}
