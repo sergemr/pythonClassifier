@@ -1,0 +1,8 @@
+item {
+  name: "paragraph"
+  id: 1
+}
+item {
+  name: "table"
+  id: 2
+}
