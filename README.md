@@ -1,6 +1,6 @@
 # Project Final 3Points AI para transformacion de Negocios 
 
-pythonClassifier
+# pythonClassifier
  
  
  Para instalar Python y correr el ambiente de desarrollo yo recorri la documentacion oficial de Django encontrada acá
